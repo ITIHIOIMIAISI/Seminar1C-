@@ -1,7 +1,21 @@
 ﻿Console.WriteLine("Введите цифру от 1 до 7");
 int wDay = int.Parse(Console.ReadLine());
 
-switch (wDay)
+
+if (wDay >= 1)
+{
+    if (wDay <= 5) 
+       Console.WriteLine("Нет");
+    if (wDay >= 6)
+        if (wDay <= 7)
+           Console.WriteLine("Да");
+        else
+        Console.WriteLine("Нет такова дня недели");
+}
+
+else
+        Console.WriteLine("Нет такова дня недели");
+/* switch (wDay)
 {
     case 1:
     Console.WriteLine("Понедельник - Будний день недели.");
@@ -34,4 +48,4 @@ switch (wDay)
     default:
     Console.WriteLine("Такой день недели еще не придумали");
     break;
-}
+} */
