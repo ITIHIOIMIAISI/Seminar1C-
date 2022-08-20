@@ -13,11 +13,8 @@ int c1 = n % 10;
 int d1 = b1 / 10;
 
 if (n == a1)
-    if (a == c1)
-        if (c == d1)
+    if (a == c1 && c == d1)
         Console.WriteLine("Палиндром");
-        else 
-        Console.WriteLine("Не является палиндромом");
     else 
         Console.WriteLine("Не является палиндромом");
 else Console.WriteLine("Число введенно неправельно");
