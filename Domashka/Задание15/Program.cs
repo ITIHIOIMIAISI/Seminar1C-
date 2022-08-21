@@ -1,7 +1,6 @@
 ﻿Console.WriteLine("Введите цифру от 1 до 7");
 int wDay = int.Parse(Console.ReadLine());
 
-
 if (wDay >= 1)
 {
     if (wDay <= 5) 
