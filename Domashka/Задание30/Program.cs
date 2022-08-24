@@ -2,7 +2,7 @@
 //Написать программу, которая ввыводит массив из 8 элементов,
 //заполненый нулями и единицыми вслучайном порядке.
 
-void RandArray()
+void RandArray(int a, int b)
 {
     int[] arr = new int[8];
     for (int i = 0; i < arr.Length; i++)
@@ -12,4 +12,4 @@ void RandArray()
     Console.WriteLine($"[{String.Join(", ", arr)}]");
 }
 
-RandArray();
+RandArray(0, 2);
