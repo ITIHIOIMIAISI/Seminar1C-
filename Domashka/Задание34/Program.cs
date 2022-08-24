@@ -4,9 +4,9 @@
 
 
 
-void RandArray()
+void RandArray(int N)
 {
-    int [] arr = new int [4];
+    int [] arr = new int [N];
     int j = 0;
     for (int i = 0; i < arr.Length; i++)
     {
@@ -16,4 +16,4 @@ void RandArray()
     Console.WriteLine($"[{String.Join(", ", arr)}]Колличество чётных чисел в массиве: {j}");
 }
 
-RandArray();
+RandArray(8);
