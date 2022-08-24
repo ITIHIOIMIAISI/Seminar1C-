@@ -5,8 +5,8 @@
 void RandArray()
 {
     float [] arr = new float [10];
-    float min = arr[0];
-    float max = arr[0];
+    float min = 0;
+    float max = 0;
     float diff = 0;
     for (int i = 0; i < arr.Length; i++)
     {
